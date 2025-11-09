@@ -15,6 +15,7 @@
   },
   "scripts": {
     "start": "bun run index.ts",
-    "dev": "bun run --watch index.ts"
+    "dev": "bun run --watch index.ts",
+    "build": "bun build index.ts --outdir dist"
   }
 }

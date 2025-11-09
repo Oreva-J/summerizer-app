@@ -10,7 +10,9 @@
     "typescript": "^5"
   },
   "scripts": {
-    "dev": "bun run index.ts"
+    "dev": "bun run index.ts",
+    "build": "bun run --filter client build",
+    "build:all": "bun run --filter client build && bun run --filter server build"
   },
   "workspaces": [
     "packages/*"

@@ -1,5 +1,7 @@
 import express from "express"
-import router from "./routes/summerizerRoute"
+import router from "./routes/summerizerRoute.js";
+
+
 
 const app = express()
 const port = 4000

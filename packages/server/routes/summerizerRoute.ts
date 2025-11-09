@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { summerizerControllers } from "../controllers/summerizerController";
+import { summerizerControllers } from "../controllers/summerizerController.js";
 
 const router = Router()
 
